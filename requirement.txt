@@ -1,7 +1,0 @@
-streamlit
-textblob
-spacy
-neattext
-matplotlib
-wordcloud
-deep_translator
