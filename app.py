@@ -6,7 +6,6 @@ st.set_page_config(page_title="NLP Web App",page_icon=":flag-np:",layout="center
 #NLP packages
 from textblob import TextBlob
 import spacy
-import en_core_web_sm
 import neattext as nt
 
 #visualization packages
