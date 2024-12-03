@@ -20,7 +20,7 @@ from deep_translator import GoogleTranslator
 
 @st.cache_data
 def text_analyzer(text):
-	nlp = spacy.load('en_core_web_sm')
+	nlp = spacy.load('assets/en_core_web_sm')
 
 	doc = nlp(text)
 	allData = [('"Token":{},\n"Lemma":{}'.format(token.text,token.lemma_)) for token in doc]
