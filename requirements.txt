@@ -1,7 +1,7 @@
 streamlit
 textblob
 spacy
-en_core_web_sm
+
 neattext
 matplotlib
 wordcloud
